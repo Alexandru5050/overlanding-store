@@ -1,0 +1,487 @@
+
+
+[
+    {
+      "name": "name 1",
+      "imageUrl": "imageUrl 1",
+      "price": 89,
+      "details": "details 1",
+      "id": "1"
+    },
+    {
+      "name": "name 2",
+      "imageUrl": "imageUrl 2",
+      "price": 2,
+      "details": "details 2",
+      "id": "2"
+    },
+    {
+      "name": "name 3",
+      "imageUrl": "imageUrl 3",
+      "price": 67,
+      "details": "details 3",
+      "id": "3"
+    },
+    {
+      "name": "Iphone 15 PRO",
+      "imageUrl": "",
+      "price": 5500,
+      "details": "",
+      "id": "4"
+    },
+    {
+      "name": "Iphone 15 PRO",
+      "imageUrl": "",
+      "price": 5500,
+      "details": "",
+      "id": "5"
+    },
+    {
+      "name": "Cana camping metal",
+      "imageUrl": "https://www.militarysurplus.ro/rum_pl_Cana-300-ml-25047_1.jpg",
+      "price": 50,
+      "details": "Cană dublă cu pereți din oțel inoxidabil carabina ca mâner pliabil izolatie termica capacitate: 300 ml greutate: 125 g dimensiune: 9 cm înălțime, diametru 7,5 cm",
+      "id": "6"
+    },
+    {
+      "name": "name 7",
+      "imageUrl": "imageUrl 7",
+      "price": 4,
+      "details": "details 7",
+      "id": "7"
+    },
+    {
+      "name": "name 8",
+      "imageUrl": "imageUrl 8",
+      "price": 70,
+      "details": "details 8",
+      "id": "8"
+    },
+    {
+      "name": "name 9",
+      "imageUrl": "imageUrl 9",
+      "price": 50,
+      "details": "details 9",
+      "id": "9"
+    },
+    {
+      "name": "name 10",
+      "imageUrl": "imageUrl 10",
+      "price": 13,
+      "details": "details 10",
+      "id": "10"
+    },
+    {
+      "name": "name 11",
+      "imageUrl": "imageUrl 11",
+      "price": 38,
+      "details": "details 11",
+      "id": "11"
+    },
+    {
+      "name": "name 12",
+      "imageUrl": "imageUrl 12",
+      "price": 32,
+      "details": "details 12",
+      "id": "12"
+    },
+    {
+      "name": "name 13",
+      "imageUrl": "imageUrl 13",
+      "price": 27,
+      "details": "details 13",
+      "id": "13"
+    },
+    {
+      "name": "name 14",
+      "imageUrl": "imageUrl 14",
+      "price": 37,
+      "details": "details 14",
+      "id": "14"
+    },
+    {
+      "name": "name 15",
+      "imageUrl": "imageUrl 15",
+      "price": 69,
+      "details": "details 15",
+      "id": "15"
+    },
+    {
+      "name": "name 16",
+      "imageUrl": "imageUrl 16",
+      "price": 88,
+      "details": "details 16",
+      "id": "16"
+    },
+    {
+      "name": "name 17",
+      "imageUrl": "imageUrl 17",
+      "price": 6,
+      "details": "details 17",
+      "id": "17"
+    },
+    {
+      "name": "name 18",
+      "imageUrl": "imageUrl 18",
+      "price": 45,
+      "details": "details 18",
+      "id": "18"
+    },
+    {
+      "name": "name 19",
+      "imageUrl": "imageUrl 19",
+      "price": 45,
+      "details": "details 19",
+      "id": "19"
+    },
+    {
+      "name": "name 20",
+      "imageUrl": "imageUrl 20",
+      "price": 9,
+      "details": "details 20",
+      "id": "20"
+    },
+    {
+      "name": "name 21",
+      "imageUrl": "imageUrl 21",
+      "price": 46,
+      "details": "details 21",
+      "id": "21"
+    },
+    {
+      "name": "name 22",
+      "imageUrl": "imageUrl 22",
+      "price": 66,
+      "details": "details 22",
+      "id": "22"
+    },
+    {
+      "name": "name 23",
+      "imageUrl": "imageUrl 23",
+      "price": 97,
+      "details": "details 23",
+      "id": "23"
+    },
+    {
+      "name": "name 24",
+      "imageUrl": "imageUrl 24",
+      "price": 83,
+      "details": "details 24",
+      "id": "24"
+    },
+    {
+      "name": "name 25",
+      "imageUrl": "imageUrl 25",
+      "price": 59,
+      "details": "details 25",
+      "id": "25"
+    },
+    {
+      "name": "name 26",
+      "imageUrl": "imageUrl 26",
+      "price": 84,
+      "details": "details 26",
+      "id": "26"
+    },
+    {
+      "name": "name 27",
+      "imageUrl": "imageUrl 27",
+      "price": 72,
+      "details": "details 27",
+      "id": "27"
+    },
+    {
+      "name": "name 28",
+      "imageUrl": "imageUrl 28",
+      "price": 53,
+      "details": "details 28",
+      "id": "28"
+    },
+    {
+      "name": "name 29",
+      "imageUrl": "imageUrl 29",
+      "price": 21,
+      "details": "details 29",
+      "id": "29"
+    },
+    {
+      "name": "name 30",
+      "imageUrl": "imageUrl 30",
+      "price": 43,
+      "details": "details 30",
+      "id": "30"
+    },
+    {
+      "name": "name 31",
+      "imageUrl": "imageUrl 31",
+      "price": 89,
+      "details": "details 31",
+      "id": "31"
+    },
+    {
+      "name": "name 32",
+      "imageUrl": "imageUrl 32",
+      "price": 31,
+      "details": "details 32",
+      "id": "32"
+    },
+    {
+      "name": "name 33",
+      "imageUrl": "imageUrl 33",
+      "price": 92,
+      "details": "details 33",
+      "id": "33"
+    },
+    {
+      "name": "name 34",
+      "imageUrl": "imageUrl 34",
+      "price": 86,
+      "details": "details 34",
+      "id": "34"
+    },
+    {
+      "name": "name 35",
+      "imageUrl": "imageUrl 35",
+      "price": 98,
+      "details": "details 35",
+      "id": "35"
+    },
+    {
+      "name": "name 36",
+      "imageUrl": "imageUrl 36",
+      "price": 91,
+      "details": "details 36",
+      "id": "36"
+    },
+    {
+      "name": "name 37",
+      "imageUrl": "imageUrl 37",
+      "price": 91,
+      "details": "details 37",
+      "id": "37"
+    },
+    {
+      "name": "name 38",
+      "imageUrl": "imageUrl 38",
+      "price": 82,
+      "details": "details 38",
+      "id": "38"
+    },
+    {
+      "name": "name 39",
+      "imageUrl": "imageUrl 39",
+      "price": 79,
+      "details": "details 39",
+      "id": "39"
+    },
+    {
+      "name": "name 40",
+      "imageUrl": "imageUrl 40",
+      "price": 82,
+      "details": "details 40",
+      "id": "40"
+    },
+    {
+      "name": "name 41",
+      "imageUrl": "imageUrl 41",
+      "price": 7,
+      "details": "details 41",
+      "id": "41"
+    },
+    {
+      "name": "name 42",
+      "imageUrl": "imageUrl 42",
+      "price": 52,
+      "details": "details 42",
+      "id": "42"
+    },
+    {
+      "name": "name 43",
+      "imageUrl": "imageUrl 43",
+      "price": 37,
+      "details": "details 43",
+      "id": "43"
+    },
+    {
+      "name": "name 44",
+      "imageUrl": "imageUrl 44",
+      "price": 78,
+      "details": "details 44",
+      "id": "44"
+    },
+    {
+      "name": "name 45",
+      "imageUrl": "imageUrl 45",
+      "price": 66,
+      "details": "details 45",
+      "id": "45"
+    },
+    {
+      "name": "name 46",
+      "imageUrl": "imageUrl 46",
+      "price": 35,
+      "details": "details 46",
+      "id": "46"
+    },
+    {
+      "name": "name 47",
+      "imageUrl": "imageUrl 47",
+      "price": 30,
+      "details": "details 47",
+      "id": "47"
+    },
+    {
+      "name": "name 48",
+      "imageUrl": "imageUrl 48",
+      "price": 30,
+      "details": "details 48",
+      "id": "48"
+    },
+    {
+      "name": "name 49",
+      "imageUrl": "imageUrl 49",
+      "price": 22,
+      "details": "details 49",
+      "id": "49"
+    },
+    {
+      "name": "name 50",
+      "imageUrl": "imageUrl 50",
+      "price": 21,
+      "details": "details 50",
+      "id": "50"
+    },
+    {
+      "name": "Compresor auto",
+      "imageUrl": "https://b-van.ro/wp-content/uploads/2020/12/SCL0008-scule-compresor-auto-12V-250W-60L-YATO-YT-73462-VLB-van-van-life-boutique-bvan-3.jpg",
+      "price": 300,
+      "details": "Compresor metalic robust cu două capete cu manometru. Compresorul este potrivit pentru umflarea roților, mingilor, pontoanelor, piscinelor și multe altele, datorită celor trei vârfuri de supapă diferite incluse. Se poate descurca cu roțile mari ale vehiculelor 4x4 - SUV - Van - Camionetă - Camping Compresorul este alimentat prin intermediul prizei de brichetă a mașinii dvs. sau direct de la baterie, datorită adaptorului corespunzător.",
+      "id": "51"
+    },
+    {
+      "name": "Frigider si congelator auto",
+      "imageUrl": "https://emudding.ro/wp-content/uploads/2023/07/Frigider-congelator-auto-pentru-camping-55l-Overlander-510x510.jpg.avif",
+      "price": 1500,
+      "details": "Frigiderul & congelatorul auto cu compresor DC este un companion de încredere în călătoriile dumneavoastră. Cu o capacitate de 55L, acesta vă permite să vă păstrați alimentele și băuturile proaspete și răcoroase în timpul deplasărilor. Sursele de alimentare 12/24V și 220V îl fac versatil și potrivit pentru orice locație sau vehicul.",
+      "id": "52"
+    },
+    {
+      "name": "Marchiza overlanding",
+      "imageUrl": "https://www.edge-overland.com/img/products/infinity-270/awning-1-lg.jpg",
+      "price": 900,
+      "details": "Copertina 2×2,5m; Corpul este alcatuit din poliester anti-rupere respirabil 260g (600D), iar rata de impermeabilitate a materialului este de PU2000mm+; Stalpi de sustinere reglabili de la 1,2-2,4m; Grosimea stalpilor de sustinere 22/25 mm.",
+      "id": "53"
+    },
+    {
+      "name": "Masa camping pliabila",
+      "imageUrl": "https://s13emagst.akamaized.net/products/21007/21006133/images/res_5148b8de1968e3c08fdd12c5a181ac61.jpg",
+      "price": 400,
+      "details": "Compactă și ușor de transportat, această masă este ideală pentru camping, picnicuri sau evenimente în aer liber. Este echipată cu picioare reglabile, ceea ce îți permite să o nivelezi cu ușurință pe terenuri neregulate sau inegale, oferindu-ți un suport stabil pentru prepararea mâncării sau pentru a te relaxa în timpul pauzelor.",
+      "id": "54"
+    },
+    {
+      "name": "Rezervor apa cu robinet",
+      "imageUrl": "https://emudding.ro/wp-content/uploads/2023/07/Rezervor-de-apa-20L-PRO-cu-robinet-inclus-Front-Runner-4-510x510.jpg.avif",
+      "price": 500,
+      "details": "Atunci cand aveti nevoie de apa in sesiunea dvs. de camping sau overlanding iar spatiul de depozitare este limitat, acest rezervor de apa PRO de 20L de la Front Runner este solutia ideala.",
+      "id": "55"
+    },
+    {
+      "name": "Dus auto electric",
+      "imageUrl": "https://fiecare.ro/cdn/shop/files/81o1uA2O9OL._AC_SL1500.jpg?v=1686056035&width=1946",
+      "price": 200,
+      "details": "Introduceti pompa intr-un bidon de apa. Conectati cablul dusului la bricheta auto. Porniti comutatorul",
+      "id": "56"
+    },
+    {
+      "name": "Cort auto",
+      "imageUrl": "https://www.autogedal.ro/media/catalog/product/cache/51a0da6e8666473d8dee16c1e7fd6750/f/3/f35dd4d99fd888d7704f09e8f18a21b62f36a3df91e198f0f0c6328ce90efe1b.jpeg",
+      "price": 5000,
+      "details": "Functioneaza ca si un cort confortabil sau ca si o cutie portbagaj cu o capacitate de depozitare de 650 L. Folosit ca si cort, este ideal pentru 2 persoane. Materialul cortului:   Exterior 5 mm ABS tratat cu protectie UV si anti decolorare./ Baza cortului combina ABS cu o structura sudata de aluminiu captusita cu o forma unica din polipropilena in forma de fagure, pentru intarirea structurii bazei. / Badachinul  Bumbac de 260 g acoperit cu poliester care ii asigura o impermeabilitate de 3000mm coloana de apa.",
+      "id": "57"
+    },
+    {
+      "name": "Dus solar 12L",
+      "imageUrl": "https://ninefold.ro/wp-content/uploads/2023/07/Dus-solar-40L-4.jpg",
+      "price": 700,
+      "details": "Dus solar 40l camping –  Indiferent că ești, pe plajă sau într-o aventură în sălbăticie, dușul solar te va ajuta să te bucuri de confort și igienă.",
+      "id": "58"
+    },
+    {
+      "name": "Lampa telescopica",
+      "imageUrl": "https://c.cdnmp.net/964890103/p/l/0/lampa-telescopica-de-santier-flash~16500.jpg",
+      "price": 500,
+      "details": "Nu mai fi niciodata prins in intuneric in timp ce campezi, faci gratar afara sau pescuiesti. Aceasta lampa LED portabila de 47W are o tija telescopica de 4.5m, astfel incat sa o poti instala la orice inaltime. Este controlata de la distanta si poate fi alimentata de la bateria masinii sau de la orice priza de 12V ori o baterie externa.",
+      "id": "59"
+    },
+    {
+      "name": "Topor maner fibra",
+      "imageUrl": "https://cdn.contentspeed.ro/suruburionline.websales.ro/cs-content/cs-photos/products/original/topor-coada-fibra-600g-860g-cu-coada_19120_1_1593157963.jpg",
+      "price": 100,
+      "details": "Cu o greutate de 1250g si o lungime de 700mm, manerul Secure este bine echilibrat, ceea ce faciliteaza manevrabilitatea si controlul precis. Indiferent daca este folosit in constructii, reparatii sau alte activitati, acest maner robust si durabil este conceput pentru a rezista uzurii indelungate.",
+      "id": "60"
+    },
+    {
+      "name": "Sac depozitare incaltaminte cort",
+      "imageUrl": "https://emudding.ro/wp-content/uploads/2024/04/Untitled-Design-2024-04-24T124925.035-510x510.jpg.avif",
+      "price": 50,
+      "details": "Acest sac de depozitare oferă o soluție practică pentru organizarea încălțămintei. Cu dimensiunile sale de 40 x 37 cm, se potrivește cu majoritatea tipurilor de încălțăminte, furnizând un spațiu generos pentru depozitare. Indiferent dacă doriți să păstrați pantofi, sandale sau chiar accesorii precum șosete sau șlapi, acest sac vă ajută să mențineți ordinea și să economisiți spațiu.",
+      "id": "61"
+    },
+    {
+      "name": "Canistra de metal",
+      "imageUrl": "https://emudding.ro/wp-content/uploads/2023/08/Canistra-de-metal-Front-Runner-1-510x510.jpg.avif",
+      "price": 300,
+      "details": "Canistra este utila in orice expeditie si sesiune de camping. Canistra de metal de la Front Runner ce se integreaza perfect in suportii de portbagaj. Este similara ca forme si dimensiuni cu canistrele de pe piata.",
+      "id": "62"
+    },
+    {
+      "name": "Geanta frigorifica",
+      "imageUrl": "https://fef5c1f60bff157bfd51-1d2043887f30fc26a838f63fac86383c.ssl.cf1.rackcdn.com/9db8e045fcbec94698dc37b300b0309c6bb0a666_600_600_fill.jpg",
+      "price": 400,
+      "details": "Geantă frigorifică pentru 6 cutii de 0,5 l.",
+      "id": "63"
+    },
+    {
+      "name": "Aragaz camping",
+      "imageUrl": "https://s13emagst.akamaized.net/products/56324/56323141/images/res_de9091ed20d3c25266e8f80478cde324.jpg",
+      "price": 1000,
+      "details": "Aragaz camping, din inox, aprindere electrica, cu tava, cleste, cutit si cutie rosie de transportat.",
+      "id": "64"
+    },
+    {
+      "name": "Saltea gonflabila",
+      "imageUrl": "https://www.bricodepot.ro/media/catalog/product/6/9/6942138916232-saltea-gonflabila-quuen-pavillo-203-x-152-x-22-cm-6408.jpg?optimize=high&fit=bounds&height=&width=",
+      "price": 300,
+      "details": "Acest produs este o saltea gonflabila, de tip Queen, care iti va oferi tot confortul de care ai nevoie pentru un somn odihnitor sau pentru a te relaxa. Fie ca o folosesti acasa pentru musafiri, fie la piscina sau la cort, aceasta va fi usor de manevrat, de transportat sau depozitat. Salteaua este confectionata din PVC, fiind rezistenta la uzura, cu un material catifelat pe partea superioara, placut la atingere si care nu aluneca. Este prevazuta cu supapa cu surub, operatiunile de umflare - dezumflare fiind foarte rapide. Este dubla, cu o lungime de 203 cm, o latime de 152 cm, iar inaltimea este de 22 cm.",
+      "id": "65"
+    },
+    {
+      "name": "Aparat cafea auto 24V",
+      "imageUrl": "https://emudding.ro/wp-content/uploads/2024/04/Untitled-Design-64-510x510.jpg.avif",
+      "price": 300,
+      "details": "Descoperă plăcerea unei cafele proaspete chiar și în mijlocul naturii cu aparatul auto de cafea Dometic. Perfect pentru aventurile tale de camping, acest aparat cafea auto este conceput să ofere o experiență de preparare a cafelei fără efort, oriunde te-ai afla. Cu tehnologia sa avansată și design-ul compact, acest aparat de cafea se integrează perfect în mașină și în mediul de camping, oferindu-ți savoarea autentică a unei cafele proaspăt preparate în orice moment. Savurează fiecare dimineață la cort sau în rulota ta cu gustul bogat și aromat al cafelei pregătite de aparatul de cafea auto Dometic – partenerul perfect pentru aventurile tale în natură.",
+      "id": "66"
+    },
+    {
+      "name": "Gratar pliabil",
+      "imageUrl": "https://gratarshop.ro/wp-content/uploads/2023/01/WhatsApp-Image-2023-02-13-at-08.30.35-2-600x400.jpeg",
+      "price": 500,
+      "details": "Gratar pliabil,usor de montat si demontat.Pliat are dimensiuni reduse fiind ideal pentru pasionatii de pescuit si nu numai.",
+      "id": "67"
+    },
+    {
+      "name": "Sac de dormit",
+      "imageUrl": "https://www.alpinexpe.ro/wp-content/uploads/2021/10/sac-de-dormit-cu-puf-sea-to-summit-treeline-tli-long-confort-3-c_12702_1_1585041354.jpg",
+      "price": 200,
+      "details": "Sac de dormit cu puf. Sac de dormit practic si versatil, recomandat pentru vara. Usor de impachetat datorita stratului exterior din nylon, care se comprima foarte bine. Tratamentul water-rapelent aplicat umpluturii de puf, impiedica umezelala si condensul sa intre in sacul de dormit.",
+      "id": "68"
+    },
+    {
+      "name": "Scaun pliabil",
+      "imageUrl": "https://www.militarysurplus.ro/rum_pl_Scaun-pliabil-De-Lux-24956_1.jpg",
+      "price": 100,
+      "details": "cadru stabil de tub metalic; cap detașabil cu pernă confortabilă; cotiera dreapta cu suport pentru sticle integrat; geantă de transport cu curea de transport și șnur; Înălțimea scaunului: aprox. 40 cm; max. încărcare: aprox. 110 kg",
+      "id": "69"
+    }
+  ]
