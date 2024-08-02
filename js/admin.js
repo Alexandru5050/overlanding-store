@@ -1,4 +1,9 @@
-const url = "https://668d7a51099db4c579f3177f.mockapi.io/products";
+import { getAllProducts } from "../api/products.js";
+import { getProductById } from "../api/products.js";
+import { mapProductToAdminTableRow } from "../utils/layout.js";
+import { updateProduct } from "../api/products.js";
+import { addNewProduct } from "../api/products.js";
+
 
 //load products in table at page loading
 const productsTableBody = document.getElementById('products-table').querySelector('tbody');
@@ -7,39 +12,14 @@ console.log(productsTableBody);
 
 document.addEventListener('DOMContentLoaded', displayAllProducts);
 
-function getAllProducts() {
-    return fetch(url).then(response => response.json());
-}
 
-function getProductById(id) {
-    return fetch(`${url}/${id}`).then(response => response.json());
-}
 
-function displayAllProducts() {
-    getAllProducts().then(products => {
-    productsTableBody.innerHTML = products.map(product => `
-        <tr>
-            <td>${product.name}</td>
-            <td>${product.price}</td>
-            <td>
-                <img src=${product.imageUrl}
-                width="50px" />
-            <td>
-                <button class="edit-${product.id}">
-                    <i class="fa-solid  fa-pen-to-square"></i>
-                </button>
-            </td>
-              <td>
-                <button class="delete-${product.id}">
-                   <i class="fa-solid fa-trash"></i>
-                </button>
-            </td>
-        </tr>
-        `
-    )
-            .join('');
-    })
-}
+async function displayAllProducts() {
+    const products = await getAllProducts();
+
+    productsTableBody.innerHTML = products.map(mapProductToAdminTableRow).join('');
+    }
+
 
 //save new product
 const form = document.getElementById('product-form');
@@ -54,7 +34,7 @@ saveProductButton.addEventListener('click', saveProduct);
 
 
 
-function saveProduct(event) {
+async function saveProduct(event) {
 
     event.preventDefault();
     
@@ -64,20 +44,23 @@ function saveProduct(event) {
             imageUrl: imageUrlInput.value,
             details: detailsInput.value,
         };
-
+        
+        if(editMode) {
+            const editedProduct = await updateProduct(product, currentEditableProductId);
+            if(editProduct !== null) {
+                form.reset();
+                displayAllProducts();
+                editMode = false;
+            }
+        }else {
+            const newProduct = await addNewProduct(product);
+            if(newProduct !== null) {
+                form.reset();
+                displayAllProducts();
+            }
+        }
     
 
-        fetch(editMode ? `${url}/${currentEditableProductId}` : url, {
-            method: editMode? 'PUT' : 'POST',
-            headers: {
-                'Content-type': 'application/json',
-            },
-            body: JSON.stringify(product),
-        }).then(() => {
-            form.reset();
-            displayAllProducts();
-            editMode = false;
-        });
 
 }
 
