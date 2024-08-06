@@ -8,6 +8,7 @@ export function mapProductToCard(product) {
                     </a>
                     
                     <p class="card-price">${product.price} lei</p>
+                    <button class="add-to-cart"  data-id=${product.id}>Adauga in cos</button>
                     
                 </div>
 

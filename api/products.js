@@ -43,3 +43,10 @@ export async function updateProduct(product, productId) {
     return editedProduct;
 }
 
+ export async function deleteProduct(id) {
+    await fetch(`${url}/${id}`, {
+        method: 'DELETE',
+        
+
+    });
+}
