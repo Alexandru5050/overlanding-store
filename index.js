@@ -9,20 +9,28 @@ async function dispalyAllProducts() {
 
   mainContainer.innerHTML = products.map(mapProductToCard).join("");
 
-  const addToCartButtons = document.querySelectorAll('.add-to-cart');
+  const addToCartButtons = document.querySelectorAll(".add-to-cart");
 
-  addToCartButtons.forEach(button => {
-    button.addEventListener('click', () =>{
-      const productId = button.getAttribute('data-id');
-      let cart = JSON.parse(localStorage.getItem('cart')) || {};
-      if(cart[productId]) {
-        cart[productId].quantity += 1 ;      
+  addToCartButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const productId = button.getAttribute("data-id");
+      const price = button.getAttribute("data-price");
+      const name = button.getAttribute("data-name");
+      const imageUrl = button.getAttribute("data-image");
+
+      let cart = JSON.parse(localStorage.getItem("cart")) || {};
+      if (cart[productId]) {
+        cart[productId].quantity += 1;
       } else {
         cart[productId] = { quantity: 1 };
+        cart[productId] = {
+          quantity: 1,
+          price: price,
+          name: name,
+          imageUrl: imageUrl,
+        };
       }
-      localStorage.setItem('cart', JSON.stringify(cart));
-    })
-  })
+      localStorage.setItem("cart", JSON.stringify(cart));
+    });
+  });
 }
-
-
