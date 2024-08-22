@@ -25,6 +25,7 @@ document.addEventListener ('DOMContentLoaded',  ()=> {
                  class="decrease">-</button></td>
                 <td>${product.quantity}</td>
                 <td><button data-id=${id} class="increase">+</button></td>
+                <td><span>${product.price} lei</span></td>
                 <td><span>${product.price * product.quantity} lei</span></td>
                 <td><button data-id=${id} class="delete">Sterge</button></td>
 
@@ -38,7 +39,7 @@ document.addEventListener ('DOMContentLoaded',  ()=> {
                    
         }
         cartTotalContainer.innerHTML = total === 0 ? 'Cosul de cumparaturi este gol' : 
-        `Total: ${total} LEI`;
+        `Total cos cumparaturi: ${total} LEI`;
 
 
     }

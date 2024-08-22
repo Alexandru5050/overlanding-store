@@ -13,6 +13,7 @@ button {
     background-color: var(--secondary-color);
     border-radius: 5px;
     border: 1px solid gray;
+    cursor: pointer;
 }
 .delete {
     width: 100px;
@@ -21,9 +22,10 @@ table button {
     width: 40px;
 }
 .cart-total {
-    width: 200px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px;
+    padding: 15px 15px 5px 15px;
     text-align: center;
+    border-bottom: 1px solid red;
 }
