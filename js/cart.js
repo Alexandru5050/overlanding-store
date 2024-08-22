@@ -21,10 +21,13 @@ document.addEventListener ('DOMContentLoaded',  ()=> {
             
                 <td><img width="20px" src="${product.imageUrl}"/></td>
                 <td>${product.name}</td>
-                <td><button data-id=${id} class="decrease">-</button></td>
+                <td><button data-id=${id} ${product.quantity === 1 ? 'disabled' : '' }
+                 class="decrease">-</button></td>
                 <td>${product.quantity}</td>
                 <td><button data-id=${id} class="increase">+</button></td>
-                <td><span>${product.price} lei</span></td>
+                <td><span>${product.price * product.quantity} lei</span></td>
+                <td><button data-id=${id} class="delete">Sterge</button></td>
+
     
     `;
     productCard.appendChild(row);
@@ -32,9 +35,11 @@ document.addEventListener ('DOMContentLoaded',  ()=> {
             ;
         
             total = total + product.price * product.quantity;
-            cartTotalContainer.innerHTML = `Total: ${total} LEI`;
                    
         }
+        cartTotalContainer.innerHTML = total === 0 ? 'Cosul de cumparaturi este gol' : 
+        `Total: ${total} LEI`;
+
 
     }
 
@@ -45,10 +50,11 @@ document.addEventListener ('DOMContentLoaded',  ()=> {
         } else if( e.target.classList.contains('decrease')){
             const id = e.target.getAttribute('data-id');
             cart[id].quantity -= 1;
-            if(cart[id].quantity <= 0) {
-                delete cart[id];
-            }
-       }
+                        
+        }else if( e.target.classList.contains('delete')) {
+            const id = e.target.getAttribute('data-id');
+            delete cart[id];
+        }
        localStorage.setItem('cart',JSON.stringify(cart));
        updateCart();
     })

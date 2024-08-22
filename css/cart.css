@@ -1,0 +1,29 @@
+#productTable {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+#productTable td {
+    border-bottom: 2px solid grey;
+    padding: 10px;
+}
+button {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.delete {
+    width: 100px;
+}
+table button {
+    width: 40px;
+}
+.cart-total {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    text-align: center;
+}

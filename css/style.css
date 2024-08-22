@@ -73,14 +73,12 @@ body {
     background-color: var(--primary-color);
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    /* font-weight: <weight>; */
     font-style: normal;
 }
 
 .logo {
     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: weight; */
   font-style: normal;
 }
 
@@ -96,9 +94,10 @@ body {
 .w-300 {
     width: 300px;
 }
-.w-500 {
-    width: 500px;
+.w-600 {
+    width: 600px;
 }
 .text-center {
     text-align: center;
 }
+
