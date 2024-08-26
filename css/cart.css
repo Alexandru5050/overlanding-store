@@ -2,6 +2,7 @@
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 45px;
     
 
 }
@@ -28,4 +29,12 @@ table button {
     padding: 15px 15px 5px 15px;
     text-align: center;
     border-bottom: 1px solid red;
+    background-color: rgb(231, 211, 127,0.8);
+    margin-top: 35px;
+}
+thead {
+    background-color: var(--secondary-color);
+}
+tbody {
+    background-color: rgb(231, 211, 127,0.5);
 }

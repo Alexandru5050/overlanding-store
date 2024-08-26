@@ -1,13 +1,18 @@
 :root {
     --primary-color: #FD9B63;
     --primary-text-color: #365E32;
-    --secondary-color: #E7D37F;
+    --secondary-color: #e7d37f;
 }
 
 .main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+}
+.main h1 {
+    background-color: var(--secondary-color);
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 form {
@@ -27,10 +32,13 @@ form > div > input {
     font-size: 18px;
     border-radius: 10px;
     border: 1px solid gray;
+
 }
 
 form > div > label {
     margin-bottom: 5px;
+    background-color: var(--secondary-color);
+    width: 120px;
 }
 
 form > button {
@@ -66,5 +74,13 @@ table, th, td {
 
 th, td {
     padding: 10px;
+    background-color: rgba(var(--secondary-color), 0.7);
+
+}
+thead {
+    background-color: var(--secondary-color);
+}
+tbody {
+    background-color: rgb(231, 211, 127, 0.5);
 }
 

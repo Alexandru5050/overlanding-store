@@ -9,6 +9,7 @@
     --primary-color: #FD9B63;
     --primary-text-color: #365E32;
     --secondary-color: #E7D37F;
+    --secondary-text-color:#A02334;
 }
 
 * {
@@ -70,7 +71,10 @@
 }
 
 body {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background-image: url("../images/autumnOverlanding.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -83,7 +87,7 @@ body {
 }
 
 .product-card {
-    background-color: var(--secondary-color);
+    background-color: rgb(231, 211, 127, 0.8);
     width: 200px;
     text-align: center;
     padding:15px 5px;
@@ -94,8 +98,8 @@ body {
 .w-300 {
     width: 300px;
 }
-.w-600 {
-    width: 600px;
+.w-800 {
+    width: 800px;
 }
 .text-center {
     text-align: center;
