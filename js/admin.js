@@ -73,10 +73,12 @@ async function handleActions(event) {
   if (className.includes("edit")) {
     const productId = className.split("-")[1];
     editProduct(productId);
+    console.log("edit")
   } else if (className.includes("delete")) {
     const productId = className.split("-")[1];
     await deleteProduct(productId);
     await displayAllProducts();
+    console.log("delete")
   }
 }
 
